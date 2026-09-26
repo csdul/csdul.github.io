@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Canadian Social Determinants Urban Laboratory
 ---
 
