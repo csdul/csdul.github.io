@@ -1,10 +1,12 @@
 ---
 layout: default
+title: Canadian Social Determinants Urban Laboratory
 ---
 
 ## About CSDUL
 
-[One or two sentences on what CSDUL is and who it serves.]
+The **Canadian Social Determinants Urban Laboratory (CSDUL)** is a research infrastructure designed to advance the study of social determinants of health in Canada using linked data. It integrates information from over 15 major data sources, anchored by the **Canadian Population Health Survey (CPHS)**, to support multi-level statistical analyses of social and non-social factors affecting health outcomes. More details about CSDUL is located in the document: [**CSDUL Framework: Architecture, Processes, and Standards**](https://drive.google.com/drive/folders/1P0YVkB8RRvYBs-R5tm-pvqsE8GZDfYZb), which is also summarized into this [GitHub document](https://github.com/csdul/csdul_introduction/blob/main/documents/csdul_framework.md).
+  
 
 ## Data nodes
 
@@ -22,5 +24,7 @@ layout: default
 
 ## Contact
 
-Charles Plante, Ph.D.: charles.plante@usask.ca
+**Charles Plante, Ph.D.**, Research Scientist  
+charles.plante@usask.ca
+
 More at [uphn.ca/CSDUL](https://www.uphn.ca/CSDUL)
