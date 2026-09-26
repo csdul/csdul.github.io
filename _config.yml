@@ -1,3 +1,9 @@
 title: Canadian Social Determinants Urban Laboratory
-description: Data infrastructure on the social determinants of health in Canada
-theme: jekyll-theme-cayman
+description: Linking Canadian data to understand health and its social determinants
+url: "https://csdul.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - README.md
