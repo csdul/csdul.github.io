@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Canadian Social Determinants Urban Laboratory">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | CSDUL
+    {% else %}
+      CSDUL
+    {% endif %}
+  </title>
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+  <div class="container nav">
+
+    <a href="{{ '/' | relative_url }}"
+       class="brand">
+
+      <div class="brand-mark">C</div>
+
+      <div class="brand-text">
+        <strong>CSDUL</strong>
+        <span>Canadian Social Determinants<br>Urban Laboratory</span>
+      </div>
+
+    </a>
+
+
+    <nav class="navigation">
+
+      <a href="{{ '/' | relative_url }}#architecture">
+        Architecture
+      </a>
+
+      <a href="{{ '/' | relative_url }}#data">
+        Data
+      </a>
+
+      <a href="https://github.com/csdul/csdul_introduction"
+         target="_blank">
+        Documentation
+      </a>
+
+      <a href="https://github.com/csdul"
+         target="_blank"
+         class="github-link">
+        GitHub ↗
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+  {{ content }}
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div>
+      <div class="footer-brand">CSDUL</div>
+
+      <p>
+        Canadian Social Determinants Urban Laboratory
+      </p>
+    </div>
+
+
+    <div>
+      <strong>Explore</strong>
+
+      <a href="{{ '/' | relative_url }}#architecture">
+        CSDUL Architecture
+      </a>
+
+      <a href="{{ '/' | relative_url }}#data">
+        Data
+      </a>
+
+      <a href="https://github.com/csdul/csdul_introduction"
+         target="_blank">
+        Documentation
+      </a>
+    </div>
+
+
+    <div>
+      <strong>Resources</strong>
+
+      <a href="https://github.com/csdul"
+         target="_blank">
+        GitHub Organization
+      </a>
+
+      <a href="https://github.com/csdul/csdul_introduction"
+         target="_blank">
+        Getting Started
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="container footer-bottom">
+    <span>
+      © {{ site.time | date: '%Y' }} Canadian Social Determinants Urban Laboratory
+    </span>
+
+    <span>
+      Open research infrastructure
+    </span>
+  </div>
+
+</footer>
+
+</body>
+</html>
